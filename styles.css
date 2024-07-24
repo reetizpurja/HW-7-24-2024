@@ -1,0 +1,100 @@
+/*
+
+CSS rules you may need for reference:
+
+- font-family
+- Arial, sans-serif
+- line-height
+- color
+- margin
+- padding
+- background-color
+- border-radius
+- border-left
+- border-bottom
+- margin-top
+- padding-left
+- padding-bottom
+- width
+- height
+- margin-bottom
+- font-size
+
+*/
+
+/* Write your CSS code here */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(231, 226, 226);
+}
+
+h1 {
+  color: white;
+}
+
+main {
+  border: 1px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+header {
+  font-family: 10px;
+  padding: 15px;
+  margin: 10px;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+section h2 {
+  border-bottom: 2px solid blue;
+  border-left: 2px solid blue;
+  padding-left: 5px;
+  padding-bottom: 7px;
+}
+
+section {
+  padding: 30px 30px;
+  background-color: rgb(231, 226, 226);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+section p {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+table,
+th,
+td {
+  padding: 5px;
+}
+
+table th {
+  background-color: blue;
+  color: rgb(255, 253, 253);
+}
+
+footer {
+  color: rgb(158, 156, 156);
+}
+
+table tr:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+}
+
+table {
+  margin: 15px;
+}
